@@ -1,0 +1,14 @@
+<table>
+<th>Id</th>
+<th>Location</th>
+<th>PC Name</th>
+<th>Bases</th>
+<?php foreach($list as $item): ?>
+<tr> 
+<td> <?php echo $item['id'];?></td>
+<td> <?php echo $item['location'];?></td>
+<td> <?php echo $item['pc_name'];?></td>
+<td> <?php echo $item['bases'];?></td>
+</tr>
+<?php endforeach; ?>
+</table>
